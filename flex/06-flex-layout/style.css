@@ -24,3 +24,28 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+
+/* solution */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
